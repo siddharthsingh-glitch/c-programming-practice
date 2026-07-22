@@ -21,5 +21,6 @@ int main(void)
     char Pan_Number = get_char("Write your Pan card number ");
     printf("(Pan Number: %c)\n", Pan_Number);
 
-    
+    long Account_Number = get_long("Write your Account Number ");
+    printf("(Account Number: %li)\n", Account_Number);
 }
